@@ -1,0 +1,21 @@
+$primary-color: #D87D4A;
+$white-color: #FFFFFF;
+$secondary-white: #F1F1F1;
+$gray-color: rgb(155, 155, 155);
+$black-color: black;
+
+
+:root{
+    font-size: 62.5%;
+}
+
+::placeholder{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    letter-spacing: -0.025rem;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+}

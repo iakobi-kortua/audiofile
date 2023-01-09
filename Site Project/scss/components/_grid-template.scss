@@ -1,0 +1,43 @@
+.grid-section{
+    margin: 16rem auto;
+    max-width: 111rem;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 28rem 28rem;
+    grid-gap: 35px;
+
+    .first-img{
+        max-width: 44.5rem;
+        width: 100%;
+        height: 28rem;
+        background-image: url('../../images/shared/desktop/image-best-gear.jpg');
+        background-position: center;
+    }
+    .second-img{
+        max-width: 63.5rem;
+        width: 100%;
+        height: 60rem;
+        background-image: url('../../images/home/desktop/image-hero.jpg');
+        background-position: center;
+    }
+    .third-img{
+        max-width: 44.5rem;
+        width: 100%;
+        height: 28rem;
+        background-image: url('../../images/product-zx9-speaker/desktop/image-gallery-2.jpg');
+        background-position: center;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .grid-section{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 2fr 1fr;
+        max-width: 44.5rem;
+        width: 90%;
+        .second-img{
+            max-width: 44.5rem;
+        }
+    }
+}

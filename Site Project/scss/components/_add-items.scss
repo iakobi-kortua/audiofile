@@ -1,0 +1,119 @@
+.whole-add-item{
+    max-width: 30rem;
+    width: 100%;
+    margin: 2.5rem auto;
+    .cart-remove-all {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 3rem;
+        h3{
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 1.8rem;
+            line-height: 2.5rem;
+            letter-spacing: 0.12rem;
+            text-transform: uppercase;
+        }
+        button{
+            outline: none;
+            background: none;
+            border: none;
+            cursor: pointer;
+            text-decoration: underline;
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 1.5rem;
+            line-height: 2.5rem;
+            text-decoration-line: underline;
+            mix-blend-mode: normal;
+            opacity: 0.5;
+        }
+    }
+    .cart-product {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .img-text{
+            display: flex;
+            align-items: center;
+            img{
+                width: 6.4rem;
+                height: 6.4rem;
+                border-radius: 8px;
+            }
+            .h5-p{
+                margin-left: 1.5rem;
+                h5{
+                    font-family: 'Manrope';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 1.5rem;
+                    line-height: 2.5rem;
+                }
+    
+                p{
+                    font-family: 'Manrope';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 1.4rem;
+                    line-height: 2.5rem;
+                    mix-blend-mode: normal;
+                    opacity: 0.5;
+                }
+            }
+        }
+        .sell-section{
+            display: flex;
+            gap: 1.5rem;
+            .plus-minus{
+                cursor: pointer;
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 1.3rem;
+                line-height: 1.8rem;                
+                text-align: center;
+                letter-spacing: 0.1rem;
+                text-transform: uppercase;
+                width: 9rem;
+                height: 3rem;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                background: $secondary-white;
+            }
+        }
+    }
+    .total-price {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 3rem;
+        p {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 1.5rem;
+            line-height: 2.5rem;
+            mix-blend-mode: normal;
+            opacity: 0.5;
+        }
+        h5 {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 1.8rem;
+            line-height: 2.5rem;  
+            text-align: center;
+            text-transform: uppercase;
+        }
+    }
+    .btn-checkout{
+        margin-top: 2.5rem;
+        width: 100%;
+    }
+}
+
+

@@ -1,0 +1,97 @@
+.button-exp {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: black;
+    width: 160px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.button-exp a {
+    font-size: 13px;
+    color: $white-color;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.button-exp:hover {
+    background-color: rgba(0, 0, 0, 0.615);
+}
+
+.button-1 {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    width: 160px;
+    height: 50px;
+    color: $white-color;
+    background-color: $primary-color;
+}
+
+.button-1 a {
+    font-size: 13px;
+    color: $white-color;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.button-1:hover {
+    background-color: rgba($primary-color,0.5);
+}
+
+.active-nav-li {
+    color: $primary-color;
+}
+
+.button-2 {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: none;
+    width: 160px;
+    height: 50px;
+    color: black;
+    border: 1px solid black;
+}
+
+.button-2 a {
+    font-size: 13px;
+    color: black;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.button-2:hover {
+    background-color: black;
+}
+
+.button-2:hover a{
+    color: $white-color;
+}
+
+.button-3 {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    width: 60px;
+    height: 20px;
+} 
+
+.button-3 a {
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: $gray-color;
+    text-transform: uppercase;
+}
+
+.button-3::after {
+    content: '>';
+    color: $primary-color;
+    margin-left: 10px;
+}
+
+.button-3 a:hover {
+    color: $primary-color;
+}

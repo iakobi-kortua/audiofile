@@ -1,0 +1,146 @@
+.sell-desc{
+    max-width: 111rem;
+    width: 90%;
+    margin: 16rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .desc-photo{
+        img{
+            max-width: 54rem;
+            width: 100%;
+        }
+    }
+    .desc-text{
+        max-width: 44.5rem;
+        width: 90%;
+        height: 40rem;
+
+        h3{
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 4rem;
+            line-height: 4.4rem;
+            letter-spacing: 0.14rem;
+            text-transform: uppercase;
+        }
+
+        p{
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 1.5rem;
+            line-height: 2.5rem;
+            mix-blend-mode: normal;
+            opacity: 0.5;
+            margin-top: 3.2rem;
+            margin-bottom: 4rem;
+        }
+
+        .sell-section{
+            display: flex;
+            gap: 1.5rem;
+            .plus-minus{
+                cursor: pointer;
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 1.3rem;
+                line-height: 1.8rem;                
+                text-align: center;
+                letter-spacing: 0.1rem;
+                text-transform: uppercase;
+                width: 12rem;
+                height: 5rem;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                background: $secondary-white;
+            }
+        }
+    }
+}
+
+.for-desc {
+    max-width: 111rem;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    .features{
+        max-width: 63.5rem;
+        width: 100%;
+        h3{
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 3.2rem;
+            line-height: 3.6rem;
+            letter-spacing: 0.1rem;
+            text-transform: uppercase;
+            margin-bottom: 3rem;
+        }
+        p{
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 1.5rem;
+            line-height: 2.5rem;
+            mix-blend-mode: normal;
+            opacity: 0.5;
+        }
+    }
+
+    .in-the-box{
+        max-width: 35rem;
+        width: 100%;
+        h3 {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 3.2rem;
+            line-height: 3.6rem;
+            letter-spacing: 0.1rem;
+            text-transform: uppercase;
+            margin-bottom: 3rem;  
+        }
+        ul{
+            li{
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 1.5rem;
+                line-height: 2.5rem;
+                mix-blend-mode: normal;
+                opacity: 0.5;
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .sell-desc{
+        flex-direction: column;
+        .desc-photo{
+            margin-bottom: 6rem;
+        }
+        .desc-text{
+            text-align: center;
+
+            .sell-section{
+                justify-content: center;
+            }
+        }
+    }
+    .for-desc{
+        max-width: 70rem;
+        width: 90%;
+        flex-direction: column;
+        .features{
+            margin-bottom: 6rem;
+        }
+    }
+}

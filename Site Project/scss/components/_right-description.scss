@@ -1,0 +1,54 @@
+.right-desc{
+    max-width: 111rem;
+    width: 90%;
+    margin: 16rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .desc-photo{
+        img{
+            max-width: 54rem;
+            width: 100%;
+        }
+    }
+    .desc-text{
+        max-width: 44.5rem;
+        width: 90%;
+        height: 34.5rem;
+
+        h3{
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 4rem;
+            line-height: 4.4rem;
+            letter-spacing: 0.14rem;
+            text-transform: uppercase;
+        }
+
+        p{
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 1.5rem;
+            line-height: 2.5rem;
+            mix-blend-mode: normal;
+            opacity: 0.5;
+            margin-top: 3.2rem;
+            margin-bottom: 4rem;
+        }
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .right-desc{
+        flex-direction: column-reverse;
+        .desc-photo{
+            margin-bottom: 6rem;
+        }
+        .desc-text{
+            text-align: center;
+        }
+    }
+}
